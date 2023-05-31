@@ -1,0 +1,36 @@
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #beb0a7;
+  }
+
+  .image-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+    height: 250px;
+  }
+  
+  .carousel-item-text {
+    font-size: 1.15rem;
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    width: 60%;
+    white-space: normal;
+    color: #3a4e48;
+  }
+  
+  @media (max-width: 600px) {
+    .carousel-item {
+      flex-wrap: wrap;
+      align-content: center;
+    }
+  }
