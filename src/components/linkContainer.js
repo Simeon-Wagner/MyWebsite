@@ -9,7 +9,7 @@ class LinkContainer extends Component {
     <div className = "link-container">
         <div className='heading'>
             <h3>
-                You find me on
+                Check me out on:
             </h3>
          </div>
         

@@ -7,9 +7,9 @@ class ProjectOverview extends Component {
     render() { 
         return (
             <div className="project-overview-container">
-                <h1>
-                    My Projects
-                </h1>
+                <div className="project-title">
+                <a href="#">My Projects</a>
+                </div>
                 <p>
                     Here you have a brief overview over the different projects I made and documented during my programming journey 
                 </p>

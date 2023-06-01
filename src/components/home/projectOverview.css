@@ -5,12 +5,20 @@
     background-color: #6a7676;
     
 }
-.project-overview-container h1 {
+.project-title{
     margin-top: 20px;
     margin-left: 20px;
 }
-
+.project-overview-container a {
+    font-weight: bold;
+    color: black; 
+    font-size: 20px;
+}
+.project-overview-container a:hover {
+    color: #beb0a7; 
+}
 .project-overview-container p {
     margin-top: 20px;
     margin-left: 20px;
+    
 }

@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
 import './footer.css'
+import LinkContainer from './linkContainer';
 
 class Footer extends Component {
   render() {
     return (
       <footer className="footer">
         <div className="container">
-          <span className="text-muted">This is the footer.</span>
-          <ul className="footer-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+            <span className="text-muted">© 2023 Simeon Wagner.</span>
+            <div className='line'></div>
+            <div className='nav-footer-container'>
+              <a href="#">Home</a>
+              <a href="#">Impressum</a>
+              <a href="#">Contact</a>
+            </div>
         </div>
-        <div className="footer-bottom">
-          <span className="text-muted">© 2023 Your Website. All rights reserved.</span>
+        <div className="footer-right">
+          <LinkContainer/>
         </div>
       </footer>
     );
