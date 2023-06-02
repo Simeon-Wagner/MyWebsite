@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ProfilePicture from "../profilePicture";
+import ProfilePicture from "./profilePicture";
 
 import "./profile.css"
-import LinkContainer from '../linkContainer';
+import LinkContainer from '../general/linkContainer';
 
 class Profile extends Component {
     state = {  } 
