@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.3923ec58.css",
-    "main.js": "/MyWebsite/static/js/main.e74ef324.js",
+    "main.js": "/MyWebsite/static/js/main.34f83b4e.js",
     "static/media/neural_network.png": "/MyWebsite/static/media/neural_network.0c9d0292b2e74fe5e8eb.png",
     "static/media/genetic_algorithm.png": "/MyWebsite/static/media/genetic_algorithm.c0e5e41eed92472f657c.png",
     "static/media/profilePicture.jpg": "/MyWebsite/static/media/profilePicture.6cd9fd9d399b86d68198.jpg",
     "index.html": "/MyWebsite/index.html",
     "main.3923ec58.css.map": "/MyWebsite/static/css/main.3923ec58.css.map",
-    "main.e74ef324.js.map": "/MyWebsite/static/js/main.e74ef324.js.map"
+    "main.34f83b4e.js.map": "/MyWebsite/static/js/main.34f83b4e.js.map"
   },
   "entrypoints": [
     "static/css/main.3923ec58.css",
-    "static/js/main.e74ef324.js"
+    "static/js/main.34f83b4e.js"
   ]
 }
