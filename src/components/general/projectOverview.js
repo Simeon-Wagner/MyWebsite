@@ -8,7 +8,7 @@ class ProjectOverview extends Component {
         return (
             <div className="project-overview-container">
                 <div className="project-title">
-                <a href="#">My Projects</a>
+                <a href="MyWebsite/projects">My Projects</a>
                 </div>
                 <p>
                     Here you have a brief overview over the different projects I made and documented during my programming journey 
