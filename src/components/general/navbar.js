@@ -8,9 +8,9 @@ class  Navbar extends Component {
         return (        
             <nav  className="navbar">
                 <div className="nav-container">
-                    <a href='MyWebsite'>Home</a>
-                    <a href='/projects'>Projects</a>
-                    <a href='/blog'>Blog</a>
+                    <a href='/MyWebsite'>Home</a>
+                    <a href='/MyWebsite/projects'>Projects</a>
+                    <a href='/MyWebsite/blog'>Blog</a>
                 </div>
             </nav>
         );
