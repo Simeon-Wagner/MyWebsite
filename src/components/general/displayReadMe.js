@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 
 import Markdown from "markdown-to-jsx";
+import './displayReadMe.css'
 
 function ReadMeComponent({file_name}) {
     const [post, setPost] = useState('');
@@ -17,11 +18,11 @@ function ReadMeComponent({file_name}) {
     });
 
     return (
-        <>
+        <div className="md-container">
         <Markdown>
             {post}
         </Markdown>
-        </>
+        </div>
     );
 
 }
