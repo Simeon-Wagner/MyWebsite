@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.3923ec58.css",
+    "main.js": "/website/static/js/main.2b78459d.js",
+    "static/media/neural_network.png": "/website/static/media/neural_network.0c9d0292b2e74fe5e8eb.png",
+    "static/media/genetic_algorithm.png": "/website/static/media/genetic_algorithm.c0e5e41eed92472f657c.png",
+    "static/media/profilePicture.jpg": "/website/static/media/profilePicture.6cd9fd9d399b86d68198.jpg",
+    "index.html": "/website/index.html",
+    "main.3923ec58.css.map": "/website/static/css/main.3923ec58.css.map",
+    "main.2b78459d.js.map": "/website/static/js/main.2b78459d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3923ec58.css",
+    "static/js/main.2b78459d.js"
+  ]
+}
