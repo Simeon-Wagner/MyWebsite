@@ -4,6 +4,7 @@ import Profile from './components/home/profile';
 import ProjectOverview from './components/general/projectOverview';
 import Footer from './components/general/footer';
 import "./App.css";
+import ReadMeComponent from './components/general/displayReadMe';
 
 class App extends Component {
     state = {  } 
@@ -14,6 +15,7 @@ class App extends Component {
                 <div className='main'>
                 <Profile/>
                 <ProjectOverview/>
+                <ReadMeComponent file_nam ='demo.md'/>
                 </div>
                 <Footer/>
             </React.Fragment>
