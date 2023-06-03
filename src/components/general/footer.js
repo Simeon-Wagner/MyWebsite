@@ -10,8 +10,8 @@ class Footer extends Component {
             <span className="text-muted">© 2023 Simeon Wagner.</span>
             <div className='line'></div>
             <div className='nav-footer-container'>
-              <a href="MyWebsite/home">Home</a>
-              <a href="MyWebsite/impressum">Impressum</a>
+              <a href="MyWebsite">Home</a>
+              <a href="/impressum">Impressum</a>
               <a href="#">Contact</a>
             </div>
         </div>
