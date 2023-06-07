@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './carouselItem.css';
+
 
 export const CarouselItem = ({ item, width }) => {
     return <>
@@ -14,8 +16,16 @@ export const CarouselItem = ({ item, width }) => {
             </h2>
             {item.description}
             <div></div>
-            <a href={item.link} style={{color: "black"}}> Read more ...</a>
+
+            <Link to={{
+            pathname: '/MyWebsite/blog/page',
+            state: { file_name: item.name }
+            }}  
+            style={{color: "black"}}> 
+            Read more ...
+            </Link>
         </div>
     </div>
     </>
 };
+

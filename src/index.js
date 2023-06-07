@@ -4,6 +4,7 @@ import Home from './components/mainpages/Home';
 import Blog from './components/mainpages/Blog';
 import Projects from './components/mainpages/Projects';
 import Impressum from './components/mainpages/Impressum';
+import BlogPage from './components/blog/blogPage';
 import {
     createBrowserRouter,
     RouterProvider,
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
     {
         path: "/MyWebsite/blog",
         element: <Blog/>,
+    },
+
+    {
+        path: "/MyWebsite/blog/page",
+        element: <BlogPage/>,
     },
 
     {

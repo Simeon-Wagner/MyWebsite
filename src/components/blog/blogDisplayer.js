@@ -2,15 +2,11 @@ import React from "react";
 import ReadMeComponent from "../general/displayReadMe";
 import './blogDisplayer.css'
 
-function BlogDisplayer () {
+export const BlogDisplayer  = ({file_name}) =>{
    
-        return (
-            <>
+        return <>
             <div className="blog-content">
-            <ReadMeComponent file_name='demo.md'/>
+            <ReadMeComponent file_name={file_name}/>
             </div>
             </>
-        );
-}
- 
-export default BlogDisplayer;
+};
