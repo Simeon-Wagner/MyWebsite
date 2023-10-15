@@ -19,7 +19,7 @@ export const CarouselItem = ({ item, width }) => {
 
             <Link to={{
             pathname: '/MyWebsite/blog/page',
-            state: { file_name: item.name }
+            search: `?file_name=${item.name}`,
             }}  
             style={{color: "black"}}> 
             Read more ...
